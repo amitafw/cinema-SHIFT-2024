@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#201e28"
+    tools:context=".ItemsDescActivity">
+
+    <TextView
+        android:id="@+id/item_list_title_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#E9E6E6"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_list_desc_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textSize="20dp"
+        android:textColor="#BCB8B8"
+        android:text="TextView" />
+    <ImageView
+        android:id="@+id/item_list_image_desc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        />
+    <Button
+        android:id="@+id/button_buy"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Buy"
+        android:textSize="17sp" />
+</LinearLayout>
